@@ -1,13 +1,6 @@
 <h1 align="center">📊 Customer Churn Prediction using ANN</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9-blue?logo=python" />
-  <img src="https://img.shields.io/badge/TensorFlow-2.0-orange?logo=tensorflow" />
-  <img src="https://img.shields.io/badge/Keras-DeepLearning-red?logo=keras" />
-  <img src="https://img.shields.io/badge/Streamlit-Deployed-brightgreen?logo=streamlit" />
-</p>
-
-<p align="center">
   🔗 <a href="https://churn-prediction-by-yug.streamlit.app/"><b>Live Demo</b></a> | 
   💻 <a href="https://github.com/Yugthakkar/Churn-Prediction-using-ANN"><b>GitHub Repo</b></a>
 </p>
@@ -36,17 +29,14 @@ This project predicts **customer churn** (whether a customer is likely to leave 
 ---
 
 <!-- Tech Stack -->
-<h2>🛠 Tech Stack</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-🐍-blue" />
-  <img src="https://img.shields.io/badge/TensorFlow-🤖-orange" />
-  <img src="https://img.shields.io/badge/Keras-DeepLearning-red" />
-  <img src="https://img.shields.io/badge/Streamlit-WebApp-brightgreen" />
-  <img src="https://img.shields.io/badge/Pandas-DataAnalysis-yellow" />
-  <img src="https://img.shields.io/badge/NumPy-Math-blueviolet" />
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-lightgrey" />
-</p>
+<h2>⚙️ Tech Stack</h2>
+<ul>
+  <li>Python</li>
+  <li>TensorFlow / Keras</li>
+  <li>NumPy & Pandas</li>
+  <li>Matplotlib (Visualization)</li>
+  <li>Streamlit (Web App)</li>
+</ul
 
 ---
 
@@ -66,13 +56,30 @@ This project predicts **customer churn** (whether a customer is likely to leave 
 </details>
 
 ---
+---
 
-<!-- Screenshot -->
-<h2>📸 Demo Screenshot</h2>
+<h2>📊 Model Performance</h2>
 
 <p align="center">
-  <img src="your-screenshot.png" width="750" alt="Streamlit App Demo"/>
+  <b>Training vs Validation Loss</b><br>
+  <img src="loss_curve.jpeg" width="600" alt="Loss Curve"/>
 </p>
+
+<p align="center">
+  <b>Training vs Validation Accuracy</b><br>
+  <img src="accuracy_curve.jpeg" width="600" alt="Accuracy Curve"/>
+</p>
+
+---
+
+<h2>📈 Final Accuracy</h2>
+
+- **Training Accuracy:** ~87.1%  
+- **Validation Accuracy:** ~85.9%  
+- **Training Loss:** ~0.30  
+- **Validation Loss:** ~0.33  
+
+The model achieves good generalization with minimal overfitting.  
 
 ---
 

@@ -86,7 +86,15 @@ The model achieves good generalization with minimal overfitting.
 <!-- Run Locally -->
 <h2>💻 Run Locally</h2>
 
-Clone the repository  
 ```bash
-git clone https://github.com/Yugthakkar/Churn-Prediction-using-ANN.git
-cd Churn-Prediction-using-ANN
+# Clone the repository
+git clone https://github.com/your-username/brain-tumor-classification.git
+
+# Navigate into the folder
+cd brain-tumor-classification
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run app.py

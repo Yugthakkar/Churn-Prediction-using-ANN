@@ -1,5 +1,8 @@
 <h1 align="center">📊 Customer Churn Prediction using ANN</h1>
-
+<p align="center">
+  A Deep Learning project using <b>TensorFlow & Keras</b> to predict customer churn.  
+  Deployed as an interactive <b>Streamlit Web App</b> for real-time predictions.
+</p>
 <p align="center">
   🔗 <a href="https://churn-prediction-by-yug.streamlit.app/"><b>Live Demo</b></a> | 
   💻 <a href="https://github.com/Yugthakkar/Churn-Prediction-using-ANN"><b>GitHub Repo</b></a>
@@ -88,10 +91,10 @@ The model achieves good generalization with minimal overfitting.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/brain-tumor-classification.git
+git clone https://github.com/Yugthakkar/Churn-Prediction-using-ANN.git
 
 # Navigate into the folder
-cd brain-tumor-classification
+cd Churn-Prediction-using-ANN
 
 # Install dependencies
 pip install -r requirements.txt
